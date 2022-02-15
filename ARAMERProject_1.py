@@ -13,7 +13,9 @@ def main():
     heart_point_right_outline = arcade.create_line(530, 345, 375, 175, arcade.color.ALABAMA_CRIMSON)
     left_heart_outline = arcade.create_ellipse_outline(300, 400, 190, 200, arcade.color.ALABAMA_CRIMSON)
     right_heart_outline = arcade.create_ellipse_outline(450, 400, 190, 200, arcade.color.ALABAMA_CRIMSON)
-    # happy_text = arcade.create_text(270, 375, "HAPPY")
+    # Under this line, I tried to put in a text that says happy valentines day but I can't figure out what to put
+    # inside of the paretheses to make it appear without an error
+    # happy_text = arcade.create_text("HAPPY")
     # now I'm running the program below
     arcade.start_render()
     heart_point_left_outline.draw()
